@@ -1,0 +1,12 @@
+
+root = true
+
+[*]
+end_of_line = lf
+trim_trailing_whitespace = true
+indent_style = space
+charset = utf-8
+indent_size = 4
+
+[{package.json,docker-compose.yml}]
+indent_size = 2

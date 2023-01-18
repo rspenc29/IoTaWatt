@@ -1,0 +1,19 @@
+{
+  "name": "iotawatt_app_server",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Rob Spencer",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "dotenv": "16.0.3",
+    "koa": "2.14.1",
+    "koa-proxies": "0.12.3",
+    "koa-static": "5.0.0",
+    "nodemon": "2.0.20"
+  }
+}
