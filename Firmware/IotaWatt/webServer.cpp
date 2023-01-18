@@ -762,6 +762,7 @@ void handleCommand(){
     server.send(200, txtPlain_P, "ok");
     log("Disconnect command received.");
     WiFi.disconnect(false);
+    ESP.restart();
     return;
   }
   if(server.hasArg(F("deletelog"))) {
